@@ -1,0 +1,946 @@
+* {
+  color: #797c86;
+}
+
+.font_color_white {
+  color: white;
+}
+
+body {
+  background-color: #070708;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header div {
+  display: none;
+}
+
+.menyuImg {
+  display: none;
+}
+
+.menyuImgBottom {
+  display: none;
+}
+
+.TelefonBtn {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 0px;
+  padding-top: 15px;
+  padding-right: 30px;
+}
+
+.menyu__titel {
+  padding-left: 20px;
+}
+
+main {
+  padding: 10px;
+}
+
+.menyuList h6 {
+  padding: 20px 0px;
+  text-align: center;
+}
+.menyuList ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  position: relative;
+  right: 240px;
+  margin-bottom: 50px;
+}
+
+.imegsDiv__ul {
+  list-style: none;
+}
+
+.BtnDizayn {
+  border-radius: 50%;
+  border: #1c1c21;
+  background-color: #1c1c21;
+  padding: 5px 10px;
+}
+
+.imegsDiv__ul__div1 {
+  position: relative;
+}
+
+.imegsDiv__ul__div1 > h2:first-child {
+  position: relative;
+  top: 10px;
+}
+
+.imegsDiv__ul ul {
+  display: flex;
+  list-style: none;
+
+  padding: 0px;
+}
+.imegsDiv__ul {
+  padding: 0px;
+}
+
+.sagSolBtns {
+  position: absolute;
+  top: 500px;
+  left: 140px;
+}
+
+.imegsDiv__ul img {
+  height: 330px;
+  width: 350px;
+}
+
+.imegsDiv__ul ul li:not(:first-child) {
+  display: none;
+}
+
+.imegsDiv__ul ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.imegsDiv__ul ul li div img {
+  height: 10px;
+  width: 10px;
+  position: relative;
+  top: 25px;
+  left: 10px;
+}
+
+.imegsDiv__ul ul li div div {
+  position: relative;
+  display: flex;
+  top: -105px;
+  left: 250px;
+  margin-bottom: 30px;
+}
+.imegsDiv__ul__div2 {
+  position: relative;
+}
+
+.sagSolBtns_2 {
+  position: absolute;
+  top: 470px;
+  left: 140px;
+}
+
+.imegsDiv__ul__div3 {
+  position: relative;
+}
+
+.novlerDiv__Titel {
+  display: flex;
+  flex-direction: column;
+}
+
+.novlerDiv__Titel h2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  font-size: 30px;
+}
+
+.novlerDiv__Titel h6 {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0px;
+  font-size: 15px;
+}
+.novlerDiv__Metinler button {
+  background-color: #1c1c21;
+  border: 0px;
+  border-radius: 50%;
+  height: 30px;
+  position: absolute;
+  top: 15px;
+  right: 60px;
+}
+.novlerDiv__Metinler ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.novlerDiv__Metinler ul li {
+  position: relative;
+}
+
+.novlerDiv__Metinler h5 {
+  color: white;
+}
+
+.buttons__ViewAll {
+  background-color: #1c1c21;
+  color: white;
+  border: 0px;
+  border-radius: 3px;
+  padding: 10px;
+  position: relative;
+  top: -160px;
+}
+
+.buttons__LeftRight button {
+  background-color: #1c1c21;
+  border: 0px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 200px;
+  left: 120px;
+}
+
+.commentDiv__titel h2 {
+  position: relative;
+  top: -10px;
+}
+
+.commentDiv__buttons {
+  position: relative;
+  top: 10px;
+}
+.commentDiv__buttons h4 {
+  position: relative;
+  top: -20px;
+}
+
+.commentDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.commentDiv__body__Ul > li:not(:first-child) {
+  display: none;
+}
+
+.commentDiv__body_titel {
+  position: relative;
+  top: 15px;
+}
+
+.commentDiv__body__Ul {
+  list-style: none;
+  margin-bottom: 100px;
+}
+
+.commentDiv__body__ulduzUl {
+  list-style: none;
+  display: flex;
+
+  gap: 5px;
+  position: relative;
+  left: -40px;
+}
+
+.commentDiv__body__LogoUl {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  top: -170px;
+  left: 80px;
+}
+
+.commentDiv__body__LogoUl button {
+  background-color: transparent;
+  border: 0px;
+  border-radius: 50%;
+}
+
+.commentDiv__body__LogoUl button img {
+  width: 30px;
+}
+
+.damiendIV {
+}
+
+.commentDiv__body {
+  position: relative;
+  top: -100px;
+}
+
+.damiendIV > img {
+  width: 350px;
+  height: 70px;
+  position: relative;
+  right: -50px;
+  top: -100px;
+}
+
+.damiendIV div ul {
+  list-style: none;
+  display: flex;
+  position: relative;
+  left: -400px;
+  gap: 30px;
+}
+.damiendIV div ul li {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.damiendIV div ul li img {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  top: 18.5px;
+}
+
+footer {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.footreTitel h2 {
+  color: white;
+  font-size: 30px;
+}
+
+.footreTitel button {
+  background-color: #4a2ced;
+  width: 70px;
+  height: 45px;
+  padding: 5px;
+  border-radius: 30%;
+  box-shadow: inset 1px 1px 10px 0px #ffffff;
+  position: relative;
+  top: 21px;
+}
+
+.footreTitel__div {
+  display: flex;
+  gap: 15px;
+  width: 300px;
+}
+
+.footreTitel__titelYarim {
+  position: relative;
+  top: -30px;
+}
+
+.siyahiDiv ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.siyahiDiv ul li {
+  width: 150px;
+}
+
+.footerBottem div {
+  display: flex;
+  gap: 10px;
+  position: relative;
+  left: 60px;
+  margin-top: 40px;
+}
+
+.footerBottem ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  top: 50px;
+  left: 40px;
+}
+
+.footerBottem button {
+  background-color: transparent;
+  border: 0px;
+}
+
+.footerBottem > h4 {
+  position: relative;
+  top: -70px;
+  margin-bottom: 50px;
+}
+/*--------------- Planset Hissesi ------------------*/
+
+@media (min-width: 600px) {
+  header div {
+    display: flex;
+    gap: 30px;
+  }
+  header div ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    justify-content: start;
+    position: relative;
+    margin-right: 50px;
+  }
+  header div button {
+    background-color: #1c1c21;
+    border: 0px;
+    border-radius: 5px;
+    position: relative;
+    right: 10px;
+  }
+  .TelefonBtn {
+    display: none;
+  }
+  .menyuImgMini {
+    display: none;
+  }
+  .menyuImg {
+    display: inline;
+    width: 100%;
+  }
+  header {
+    margin-bottom: 40px;
+  }
+  .menyuDiv {
+    position: absolute;
+    top: 75px;
+    width: 65%;
+  }
+  .menyuDiv :nth-child(1) {
+    position: relative;
+    top: 5px;
+  }
+
+  .menyuDiv p {
+    font-size: 12px;
+  }
+  .menyuImgBottom {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 60px;
+  }
+
+  .menyuImgBottom button {
+    background-color: #1c1c21;
+    border: 0px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+
+  .menyuImgBottom button img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: 5px;
+  }
+
+  .font_color_white {
+    font-size: 22px;
+  }
+
+  .menyuList ul {
+    left: -30px;
+  }
+  .menyuList li img {
+    width: 110px;
+  }
+  .imegsDiv__ul ul li:not(:first-child) {
+    display: inline;
+  }
+  .imegsDiv__ul ul {
+    gap: 20px;
+  }
+  .imegsDiv__ul img {
+    height: 180px;
+    width: 200px;
+  }
+  .imegsDiv__ul ul li div div {
+    position: relative;
+    display: flex;
+    top: -74px;
+    left: 130px;
+    margin-bottom: -50px;
+  }
+  .imegsDiv__ul ul li div h6 {
+    font-size: 10px;
+  }
+  .imegsDiv__ul ul li div div h5 {
+    font-size: 10px;
+  }
+  .imegsDiv__ul ul li div div img {
+    width: 8px;
+    height: 8px;
+    position: relative;
+    top: 19px;
+    left: 5px;
+  }
+  .imegsDiv__ul ul li div p {
+    font-size: 10px;
+    position: relative;
+    top: -10px;
+  }
+  .novlerDiv__Titel div {
+    display: flex;
+    gap: 10px;
+  }
+  .novlerDiv__Metinler ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .novlerDiv__Metinler ul li {
+    width: 300px;
+  }
+  .novlerDiv__Metinler h5 {
+    font-size: 8px;
+  }
+  .novlerDiv__Metinler p {
+    font-size: 8px;
+  }
+  .novlerDiv__Metinler button {
+    top: 10px;
+    height: 20px;
+  }
+  .novlerDiv__Metinler button img {
+    width: 10px;
+    height: 10px;
+  }
+  .imegsDiv__ul__div1 {
+    display: flex;
+  }
+  .imegsDiv__ul__div1 h2 {
+    top: 0px;
+  }
+  .imegsDiv__ul__div1 > h2:first-child {
+    position: relative;
+    top: 0px;
+    margin-right: 5px;
+  }
+  .sagSolBtns {
+    position: relative;
+    left: 350px;
+    top: 22px;
+  }
+  .sagSolBtns_2 {
+    position: relative;
+    display: block;
+    left: 590px;
+    top: -43px;
+  }
+
+  .buttons__ViewAll {
+    top: 0px;
+    left: 250px;
+  }
+
+  .buttons__LeftRight button {
+    top: 0px;
+    left: 235px;
+  }
+
+  .commentDiv__buttons h4 {
+    position: relative;
+    top: 0px;
+  }
+  .commentDiv__buttons {
+    display: flex;
+    align-items: center;
+  }
+
+  .commentDiv__body {
+    top: 0px;
+  }
+  .commentDiv__buttons div h4 {
+    top: -20px;
+  }
+
+  .commentDiv__body__Ul > li:not(:first-child) {
+    display: block;
+  }
+  .commentDiv__body__Ul {
+    display: flex;
+    gap: 50px;
+  }
+
+  .commentDiv__body__Ul li p {
+    font-size: 12px;
+  }
+  .commentDiv__body__Ul li h5 {
+    font-size: 12px;
+  }
+  .commentDiv__body__ulduzUl img {
+    width: 12px;
+    height: 12px;
+  }
+  .commentDiv__body__LogoUl img {
+    width: 12px;
+    height: 20x;
+  }
+  .commentDiv__body__LogoUl {
+    position: relative;
+    top: -130px;
+    left: 50px;
+    gap: 0px;
+  }
+  .damiendIV > img {
+    width: 650px;
+    height: 140px;
+    right: -50px;
+    top: -100px;
+  }
+  .damiendIV div ul {
+    left: -35px;
+  }
+
+  .damiendIV div ul li img {
+    width: 20px;
+    height: 20px;
+  }
+  .damiendIV div ul li h4 {
+    font-size: 8px;
+  }
+  footer {
+    display: flex;
+    position: relative;
+    padding-bottom: 100px;
+  }
+  .siyahiDiv ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .siyahiDiv ul li {
+    width: 100px;
+  }
+  .siyahiDiv h4 {
+    font-size: 10px;
+  }
+  .footerBottem {
+    position: absolute;
+
+    justify-content: center;
+  }
+  .footreTitel {
+    position: relative;
+    top: -70px;
+  }
+  .footerBottem {
+    display: flex;
+  }
+  .footerBottem ul {
+    display: flex;
+    position: relative;
+  }
+
+  .footerBottem div {
+    position: relative;
+    top: -40px;
+    left: -40px;
+  }
+
+  .footerBottem ul {
+    display: flex;
+    position: relative;
+    top: 285px;
+    left: -20px;
+  }
+  .footerBottem h4 {
+    position: relative;
+    top: 283px;
+    left: 30px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 900px) {
+  header nav a {
+    font-size: 25px;
+  }
+
+  .header_titel {
+    font-size: 30px !important;
+    width: 50px !important;
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+  }
+
+  header div button {
+    width: 140px;
+    border-radius: 7px;
+    right: 10px;
+    font-size: 20px;
+  }
+
+  header {
+    margin-bottom: 50px;
+  }
+  .menyuDiv {
+    position: absolute;
+    top: 100px;
+    width: 70%;
+  }
+
+  .menyuDiv :nth-child(1) {
+    top: 30px;
+  }
+  .menyuDiv p {
+    font-size: 14px;
+  }
+  .menyuImgBottom {
+    bottom: 80px;
+  }
+
+  h1 {
+    font-size: 50px !important;
+  }
+
+  .menyuImgBottom button {
+    width: 80px;
+    height: 80px;
+  }
+
+  .menyuImgBottom button img {
+    width: 80px;
+    height: 80px;
+
+    right: 5px;
+  }
+
+  .menyuList li img {
+    width: 240px;
+  }
+  .menyuImgBottom p {
+    font-size: 30px;
+    position: relative;
+    bottom: 30px;
+  }
+  .menyuList h6 {
+    font-size: 25px;
+  }
+
+  .imegsDiv__ul img {
+    height: 300px;
+    width: 280px;
+  }
+  .imegsDiv__ul ul li div div {
+    position: relative;
+    display: flex;
+    top: -98px;
+    left: 180px;
+    margin-bottom: -50px;
+  }
+  .imegsDiv__ul ul li div h6 {
+    font-size: 14px;
+  }
+  .imegsDiv__ul ul li div div h5 {
+    font-size: 14px;
+  }
+  .imegsDiv__ul ul li div div img {
+    width: 11px;
+    height: 12px;
+    position: relative;
+    top: 25px;
+    left: 10px;
+  }
+  .imegsDiv__ul ul li div p {
+    font-size: 12px;
+    position: relative;
+    top: -10px;
+  }
+  .imegsDiv__ul__div1 h2 {
+    font-size: 40px;
+  }
+  .imegsDiv__ul__div2 h2 {
+    font-size: 40px;
+  }
+  .imegsDiv__ul__div3 h2 {
+    font-size: 40px;
+  }
+  .novlerDiv__Titel div h2 {
+    font-size: 50px;
+  }
+  .novlerDiv__Titel h6 {
+    font-size: 25px;
+  }
+
+  .novlerDiv__Metinler ul li {
+    width: 400px;
+  }
+  .novlerDiv__Metinler h5 {
+    font-size: 14px;
+  }
+  .novlerDiv__Metinler p {
+    font-size: 12px;
+  }
+  .novlerDiv__Metinler button {
+    top: 15px;
+    right: 30px;
+    height: 30px;
+  }
+  .novlerDiv__Metinler button img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .sagSolBtns {
+    position: relative;
+    left: 400px;
+    top: 35px;
+  }
+  .sagSolBtns_2 {
+    position: relative;
+    display: block;
+    left: 800px;
+    top: -77px;
+  }
+
+  .BtnDizayn {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .buttons__ViewAll {
+    top: 0px;
+    left: 250px;
+  }
+
+  .buttons__LeftRight button {
+    top: 0px;
+    left: 235px;
+  }
+
+  .commentDiv__titel h5 {
+    font-size: 25px;
+  }
+  .commentDiv__titel h2 {
+    font-size: 30px;
+  }
+
+  .commentDiv__buttons h6 {
+    font-size: 20px;
+  }
+  .commentDiv__buttons h4 {
+    position: relative;
+    top: -42px !important;
+    font-size: 20px;
+  }
+
+  .buttons__LeftRight {
+    position: relative;
+    left: 270px;
+  }
+
+  .buttons__ViewAll {
+    position: relative;
+    left: 520px;
+  }
+
+  .commentDiv__body {
+    top: 0px;
+  }
+  .commentDiv__buttons div h4 {
+    top: -20px;
+  }
+
+  .commentDiv__body__Ul li p {
+    font-size: 16px;
+  }
+  .commentDiv__body__Ul li h5 {
+    font-size: 16px;
+  }
+
+  .commentDiv__body__LogoUl {
+    position: relative;
+    top: -170px;
+    left: 90px;
+    gap: 0px;
+  }
+
+  .damiendIV > img {
+    width: 1150px;
+    height: 220px;
+    right: -60px;
+    top: -50px;
+  }
+
+  .damiendIV div ul li img {
+    width: 32px;
+    height: 32px;
+  }
+  .damiendIV div ul li h4 {
+    font-size: 15px;
+  }
+  footer {
+    display: flex;
+    position: relative;
+    padding-bottom: 100px;
+  }
+  .siyahiDiv ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footreTitel {
+    position: relative;
+    top: -70px;
+  }
+
+  .footreTitel h4 {
+    font-size: 25px;
+  }
+  .footreTitel h2 {
+    font-size: 50px;
+  }
+  .footreTitel__div BUTTON {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    top: 45px;
+  }
+  .footreTitel__div BUTTON img {
+    width: 35px;
+    height: 35px;
+  }
+  .footerBottem {
+    display: flex;
+  }
+  .footerBottem ul {
+    display: flex;
+    position: relative;
+  }
+
+  .footerBottem div {
+    position: relative;
+    top: -40px;
+    left: -40px;
+  }
+
+  .footerBottem ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    top: 285px;
+    left: -20px;
+  }
+  .footerBottem h4 {
+    position: relative;
+    top: 283px;
+    left: 30px;
+    font-size: 20px;
+  }
+  .siyahiDiv h4 {
+    font-size: 20px;
+  }
+  .siyahiDiv ul {
+    gap: 20px;
+    position: relative;
+    top: 30px;
+    left: 200px;
+  }
+  .footerBottem {
+    top: 100px;
+  }
+}
